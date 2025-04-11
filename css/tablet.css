@@ -1,0 +1,435 @@
+@media screen and (max-width: 1244px) {
+
+
+    footer::after {
+        content: '';
+        width: 100%;
+        background-size: cover;
+        min-height: 749px;
+        background-image: url('../img/3d-burning-blue-fire-flame-border\ 1.png');
+        background-repeat: no-repeat;
+        position: absolute;
+        opacity: 0.8;
+        top: 6741px;
+        z-index: -3;
+    }
+
+    main::after {
+        content: '';
+        width: 100%;
+        background-size: cover;
+        min-height: 885px;
+        background-image: url('../img/3d-burning-blue-fire-flame-border\ 1.png');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -20;
+    }
+
+    .priceBoxBlock::before {
+        content: '';
+        width: 503px;
+        background-size: cover;
+        min-height: 497px;
+        background-image: url('../img/tarifsbg.png');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 4400px;
+
+        z-index: -1;
+
+    }
+
+    .bigboxBlock::before {
+        content: '';
+        width: 100%;
+        background-size: cover;
+        height: 800px;
+        background-image: url('../img/bg2.png');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 2884px;
+        left: 0;
+        z-index: -1;
+    }
+
+
+    main::before {
+        content: '';
+        width: 100%;
+        background-size: cover;
+        min-height: 885px;
+        background-image: url(../img/hb.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -19;
+    }
+
+    body::after {
+        content: '';
+        width: 100%;
+        background-size: cover;
+        min-height: 422px;
+        background-image: url('../img/blurhead.svg');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 750px;
+        left: 0;
+        z-index: -18;
+    }
+
+    body::before {
+        content: '';
+        width: 100%;
+        background-size: cover;
+        min-height: 300px;
+        background-image: url('../img/circleblur.svg');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 750px;
+        left: 0;
+        z-index: -19;
+    }
+
+    .newsBlockBox {
+
+        width: 439px;
+    }
+
+    .content {
+        width: 928px;
+        max-width: 100%;
+        margin: 0 auto;
+        padding-top: 87px;
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    h1 {
+
+        font-size: 55px;
+
+    }
+
+    h2 {
+
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 45px;
+
+        color: #fff;
+    }
+
+    h3 {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 32px;
+
+        color: #fff;
+    }
+
+    .hsize {
+        width: 440px;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .priceBox {
+        width: 438px;
+    }
+
+    .topImg {
+        width: 261px;
+
+        height: 248px;
+        display: flex;
+
+    }
+
+    .topImg img {
+        width: 261px;
+        height: 248px;
+        right: 0;
+    }
+
+    .topBlock {
+        gap: 10px;
+        justify-content: space-between;
+        width: 1000px;
+    }
+
+    .minboxBlock {
+        margin: 0 auto;
+        margin-bottom: 73px;
+    }
+
+    .h3center {
+        gap: 33px;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        max-width: 895px;
+        width: 100%;
+    }
+
+    .bigboxcolumn {
+        width: 439px;
+        height: auto;
+    }
+
+    .helpcolumnblock {
+
+        width: 439px;
+    }
+
+    .bigbox {
+        gap: 10px;
+        width: 439px;
+        min-height: 272px;
+        padding: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+
+    }
+
+    .footblock {
+        padding: 20px;
+    }
+
+    .review {
+        width: 680px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .newsBlock {
+        justify-content: start;
+    }
+
+    .feedcontacts {
+        align-items: normal;
+        gap: 20px;
+    }
+
+     
+
+    .newsBlock::after {
+        content: '';
+        width: 194px;
+        background-size: cover;
+        min-height: 133px;
+        background-image: url('../img/bg5.png');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 5550px;
+        opacity: 0.5;
+        left: 0;
+        z-index: -1;
+
+    }
+}
+
+@media screen and (max-width: 918px) {
+    .newsBlockBox {
+
+        width: 590px;
+    }
+
+    .start {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 24px;
+        text-align: justify;
+        color: #fff;
+        top: -48px;
+        left: -59px;
+        position: relative;
+        border: 5px solid #220c33;
+        background-color: #220c33;
+        width: 120px;
+        height: 40px;
+        text-align: center;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 927px) {
+    .priceBox {
+        width: 284px;
+    }
+
+ 
+}
+
+@media screen and (max-width: 928px) {
+    footer::after {
+        top: 0;
+        background-image: none;
+    }
+
+    .bigboxBlock::before {
+        content: '';
+        width: 100%;
+        background-size: cover;
+        height: 622px;
+        background-image: url('../img/bg2.png');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 4698px;
+        left: 0;
+        z-index: -1;
+    }
+
+    .newsBlock::after {
+        content: '';
+        width: 194px;
+        background-size: cover;
+        min-height: 133px;
+        background-image: url('../img/bg5.png');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 7950px;
+        opacity: 0.5;
+        left: 200px;
+        z-index: -1;
+
+    }
+
+    .footcontent {
+        content: '';
+        width: 100%;
+        background-image: url('../img/3d-burning-blue-fire-flame-border\ 1.png');
+
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        opacity: 0.4;
+        background-position: center;
+    }
+
+    .priceBoxBlock::before {
+        content: '';
+        width: 503px;
+        background-size: cover;
+        min-height: 497px;
+        background-image: url('../img/tarifsbg.png');
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 5481px;
+
+        z-index: -1;
+    }
+
+    .bigboxcolumn {
+        width: 590px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .feedflex {
+        justify-content: left;
+    }
+
+    .helpcolumnblock {
+        width: 590px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .helpBoxBlock {
+        width: 100%;
+    }
+
+    .bigbox {
+        width: 100%;
+        height: auto;
+    }
+
+    .tagBoxBlock {
+        border: 1px solid #fff;
+        border-radius: 27px;
+        width: 590px;
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 26px;
+        gap: 15px;
+    }
+
+    .regBT {
+        margin-left: 20px;
+    }
+
+    .akciaBlock {
+        width: 590px;
+        max-width: 100%;
+        margin: 0;
+        gap: 3px;
+        margin-bottom: 43px;
+    }
+
+    .akciatext {
+        font-family: var(--font-family);
+        font-weight: 300;
+        font-size: 17px;
+
+        color: #fff;
+    }
+
+    .akciabold {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 17px;
+
+        color: #fff;
+
+    }
+
+    .akcialink {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 17px;
+        color: #33caff;
+
+    }
+
+
+    .swiper-button-next:after {
+
+        top: 20px;
+        position: absolute;
+        left: 10px;
+    }
+}
+
+@media screen and (min-width: 733px) and (max-width: 924px) {
+    main::after {
+        min-height: 1156px;
+    }
+
+    main::before {
+        min-height: 1156px;
+    }
+
+    body::before {
+
+        top: 990px;
+    }
+ 
+  
+}
+
+@media screen and (max-width: 380px) {
+
+
+ 
+}

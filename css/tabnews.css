@@ -1,0 +1,237 @@
+@media screen and (max-width: 1244px) {
+
+    .kb {
+        margin-bottom: 45px;
+    }
+
+    .pk {
+        height: 220px;
+        overflow: hidden;
+    }
+
+    .kbeit {
+        height: 743px;
+        overflow: hidden;
+    }
+
+    main::after {
+        height: 930px;
+        min-height: 0;
+    }
+
+    main::before {
+        height: 930px;
+        min-height: 0;
+    }
+
+    main {
+        background-size: 100% 776px;
+        background-position-y: 756px;
+    }
+
+
+    .newsBlockBox {
+
+        width: 439px;
+    }
+
+    .content {
+        width: 1200px;
+        max-width: 100%;
+        margin: 0 auto;
+        padding-top: 1px;
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    h1 {
+
+        font-size: 55px;
+
+    }
+
+    h2 {
+
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 45px;
+
+        color: #fff;
+    }
+
+    h3 {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 32px;
+
+        color: #fff;
+    }
+
+    .hsize {
+        width: 440px;
+        height: auto;
+        max-width: 100%;
+    }
+
+
+
+
+    .h3center {
+        gap: 33px;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        max-width: 895px;
+        width: 100%;
+    }
+
+
+
+    .helpcolumnblock {
+
+        width: 439px;
+    }
+
+
+
+    .footblock {
+        padding: 20px;
+    }
+
+
+
+    .newsBlock {
+        justify-content: start;
+    }
+
+    .feedcontacts {
+        align-items: normal;
+        gap: 20px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 918px) {
+    .newsBlockBox {
+
+        width: 590px;
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width: 928px) {
+
+
+    .bgblock::before {
+
+        min-height: 1049px;
+
+        top: 1650px;
+    }
+
+    body::after {
+
+        top: 817px;
+    }
+
+    .feedcontacts {
+        min-height: 310px;
+    }
+
+    footer::after {
+        top: 0;
+        background-image: none;
+    }
+
+
+    .footcontent {
+        content: '';
+        width: 100%;
+        background-image: url('../img/3d-burning-blue-fire-flame-border\ 1.png');
+
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        opacity: 0.4;
+        background-position: center;
+    }
+
+
+
+    .feedflex {
+        justify-content: left;
+    }
+
+    .helpcolumnblock {
+        width: 590px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .helpBoxBlock {
+        width: 100%;
+    }
+
+
+    .regBT {
+        margin-left: 20px;
+    }
+
+
+}
+
+@media screen and (min-width: 733px) and (max-width: 924px) {
+    main::after {
+        height: 930px;
+        min-height: 0;
+    }
+
+    main::before {
+        height: 930px;
+        min-height: 0;
+    }
+
+    main {
+        background-size: 100% 1004px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .feedmess {
+        width: 590px;
+        max-width: 100%;
+    }
+
+    .feedfio {
+        width: 590px;
+        max-width: 100%;
+    }
+
+    main {
+        background-size: 100% 1004px;
+    }
+}
+
+@media screen and (max-width: 611px) {
+    .box {
+        float: left;
+        margin-right: 20px;
+        width: 298px;
+        height: 198px;
+        border-radius: 15px;
+        background-image: url(../img/newspic.png);
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .ureg {
+            display: flex;
+        } 
+}

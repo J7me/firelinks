@@ -1,0 +1,36 @@
+@import 'pc.css';
+@import 'tablet.css';
+@import 'mob.css';
+@import 'header.css';
+
+@font-face {
+    font-family: 'GT Eesti Pro Display';
+    src: url('../fonts/gteestiprodisplay_bold.otf') format('otf'),
+        url('../fonts/gteestiprodisplay_light.otf') format('otf'),
+        url('../fonts/gteestiprodisplay_medium.otf') format('otf'),
+        url('../fonts/gteestiprodisplay_regular.otf') format('otf'),
+        url('../fonts/gteestiprodisplay_thin.otf') format('otf'),
+        url('../fonts/gteestiprodisplay_ultrabold.otf') format('otf');
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'GT Eesti Pro Display', sans-serif;
+}
+
+:root {
+    --font-family: "GT Eesti Pro Display", sans-serif;
+    --swiper-navigation-size: 64px;
+}
+ 
+/* .swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    content: '';
+        background-image: url(../img/62.png);
+            width: 62px;
+            height: 62px;
+} */
+ 

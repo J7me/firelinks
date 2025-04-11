@@ -1,0 +1,330 @@
+ 
+.hcontent {
+    width: 1200px;
+    min-height: 52px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+
+
+header {
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+ 
+
+}
+
+header .logo {
+    width: 160px;
+    height: 41px;
+    background-image: url('../img/logo.png');
+    background-size: cover;
+    z-index: 100;
+
+}
+
+header nav ul {
+    display: flex;
+    gap: 29px;
+    list-style: none;
+    z-index: 99;
+    background-color: var(--bg_color);
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header nav a::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition: .3s;
+    margin-left: 50%;
+
+}
+
+header nav li:hover a::after {
+    width: 100%;
+    margin-left: 0%;
+}
+
+header .primary {
+    border-radius: 10px;
+    width: 137px;
+    height: 50px;
+    background: #33caff;
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .primary:hover {
+    opacity: 0.8;
+    transition: .3s;
+}
+
+header .primaryreg {
+    border-radius: 10px;
+    width: 137px;
+    height: 50px;
+    background: #33c9ff00;
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger {
+    width: 26px;
+    height: 20px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mn {
+    max-width: 516px;
+
+}
+
+.rublock {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    width: 40px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-left: 19px;
+    margin-right: 10px;
+}
+
+.menubt {
+    display: flex;
+    gap: 11px;
+}
+
+.burger span {
+    width: 90%;
+    height: 3px;
+    background-color: rgb(2, 2, 2);
+    margin: 0 auto;
+
+}
+
+@media screen and (max-width: 1034px) {
+    header .primary {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 978px) {
+    header .rublock {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    header .primaryreg {
+        display: none;
+    }
+
+    .ureg {
+        display: block;
+    }
+
+    header nav ul {
+        position: fixed;
+        left: 0;
+        top: 0;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        left: 100%;
+        transition: .3s;
+    }
+
+    .bgblock.show {
+
+        display: none;
+    }
+
+    .content.show {
+
+        display: none;
+    }
+
+
+
+    footer.show {
+        display: none;
+    }
+
+    main.show {
+        position: relative;
+        left: 100%;
+        display: none;
+    }
+
+    header nav ul.show {
+        left: 0%;
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+                background-position: bottom center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+        background-image: url('../img/3d-burning-blue-fire-flame-border\ 1.png');
+
+    }
+
+    .burger {
+        display: flex;
+        z-index: 99;
+        width: 32px;
+        height: 32px;
+        background-color: #44a3ff;
+        border: 5px solid #44a3ff;
+        border-radius: 20%;
+    }
+
+    .burger span {
+        transition: .3s;
+    }
+
+
+    .burger.show span:nth-child(1) {
+        transform: rotateZ(45deg) translateX(60%);
+       
+        margin-left: -7px;
+        width: 100%;
+    }
+
+
+    .burger.show span:nth-child(2) {
+        width: 0%;
+    }
+
+    .burger.show span:nth-child(3) {
+        
+        transform: rotateZ(-45deg) translateX(60%);
+        margin-left: -5px;
+        width: 100%;
+    }
+
+    header {
+        position: fixed;
+        background-image: url('../img/3d-burning-blue-fire-flame-border\ 1.png');
+        opacity: 0.9;
+
+    }
+
+}
+
+.swiper-button-next {
+    position: absolute;
+    top: var(--swiper-navigation-top-offset, 50%);
+
+    margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/65.png);
+    background-repeat: no-repeat;
+    content: '';
+    width: 62px;
+    height: 62px;
+    right: 0;
+    top: 50%;
+    background-size: cover;
+    color: var(--swiper-navigation-color, var(--swiper-theme-color));
+    z-index: 999;
+    border-radius: 100%;
+    box-shadow: 0 0 5px 0 #33caff;
+}
+
+.swiper-button-next::after {
+    display: none;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+
+.swiper-button-prev {
+    position: absolute;
+    top: var(--swiper-navigation-top-offset, 50%);
+    margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color, var(--swiper-theme-color));
+    background-image: url(../img/64.png);
+    background-repeat: no-repeat;
+    content: '';
+    width: 62px;
+    height: 62px;
+    left: 0;
+    top: 50%;
+border-radius: 100%;
+box-shadow: 0 0 5px 0 #33caff;
+}
+
+.review {
+    border: 1px solid #fff;
+    border-radius: 27px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.swiper-slide {
+    /* margin-left: 10px;
+    margin-right: -270px; */
+}
+
+.swiper {
+    padding-left: 17px;
+    padding-right: 17px;
+
+}
+@media screen and (max-width: 928px) {
+.feedbackBlock { 
+background-image: none;
+}
+}
